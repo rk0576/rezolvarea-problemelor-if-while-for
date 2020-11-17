@@ -12,9 +12,6 @@ if s11<s21:
     print("s11 este mai mic decat s21")
 if s11==s21:
     print("s11 este egal cu s21")
-
-
-    
 n=eval(input("introduceti nr n: "))
 s12=0
 r12=0
