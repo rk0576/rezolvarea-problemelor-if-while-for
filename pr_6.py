@@ -1,31 +1,31 @@
 n=eval(input("introduceti nr n: "))
-s11=0
-s21=0
-r21=0
+s1=0
+s2=0
+r2=0
 for i in range(1,(n+1)):
-    s11+=i**3
-    r21+=i
-    s21=r21**2
-if s11>s21:
-    print("s11 este mai mare decat s21")
-if s11<s21:
-    print("s11 este mai mic decat s21")
-if s11==s21:
-    print("s11 este egal cu s21")
+    s1+=i**3
+    r2+=i
+    s2=r2**2
+if s1>s2:
+    print("s1 este mai mare decat s2")
+if s1<s2:
+    print("s1 este mai mic decat s2")
+if s1==s2:
+    print("s1 este egal cu s2")
 n=eval(input("introduceti nr n: "))
-s12=0
-r12=0
-s22=0
-r22=0
-t22=0
+s3=0
+r3=0
+s4=0
+r4=0
+t4=0
 for i in range (1,(n+1)):
-    r12+=i**2
-    s12=3*r12
-    r22+=i
-    s22=n**3+n**2+r22
-if s12>s22:
-    print("s12 este mai mare decat s22")
-if s12<s22:
-    print("s12 este mai mic decat s22")
-if s12==s22:
-    print("s12 este egal cu s22")
+    r3=i**2
+    s3=3*r3
+    r4+=i
+    s4=n**3+n**2+r4
+if s3>s4:
+    print("s3 este mai mare decat s4")
+if s3<s4:
+    print("s3 este mai mic decat s4")
+if s3==s4:
+    print("s3 este egal cu s4")
