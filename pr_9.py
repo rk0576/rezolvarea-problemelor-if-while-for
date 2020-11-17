@@ -1,6 +1,5 @@
-  
-n = int(input("introduceti numarul n: "))
-m= 1
+n=int(input("introduceti numarul n: "))
+m=1
 while m<=n:
     s=0
     d=1
